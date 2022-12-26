@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(to right, #ff5f6d, #ffc371);
+    border-bottom: 2px double white;
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #ff5f6d, #ffc371);
+}
+
+.hero {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.hero_headings {
+    display: flex;
+    width: 100vw;
+}
+
+.hero h1 {
+    font-size: 12rem;
+    margin-left: 10rem;
+    margin-bottom: 0.5rem;
+    z-index: 1;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: -6rem;
+    text-align: start;
+    margin-left: 10.8rem;
+    margin-bottom: 2rem;
+}
+  
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #ff5f6d, #ffc371);
+    font-weight: 600;
+    margin-top: 5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.2s;
+    border: 2px solid white;
+}
+  
+.btn:hover {
+    background-image: linear-gradient(to right, #ffc371, #ff5f6d);
+    color: #fff;
+}
+
+.art {
+    display: block;
+    width: 5rem;
+    margin-right: auto;
+    margin-left: auto;
+    fill: white;
+}
+.dot {
+   margin-top: 9rem;
+   margin-left: -3rem;
+}
+.smile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
